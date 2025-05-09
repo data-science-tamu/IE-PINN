@@ -1,5 +1,5 @@
 # IE-PINN
-Inverse Elasticity Physic-informed machine learning (IE-PIML)
+Inverse Elasticity Physics-Informed Neural Network (IE-PINN)
 
 ## 📄 Abstract
 
