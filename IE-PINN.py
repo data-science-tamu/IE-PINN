@@ -433,8 +433,8 @@ class Neptune:
     ACTION_APPEND = 3
     ACTION_UPLOAD = 4
 
-    def __init__(self, project = "data-science-tamu/Double-Deterministic-Elast-PINN",
-                 api_token = "eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiIxNDk3NjE1ZC1mMDRiLTQzYTktYjBkOS0xM2IyOTUyNDhmOGIifQ=="):
+    def __init__(self, project = "xx",
+                 api_token = "xx"):
         self.run = neptune.init_run(
             project=project,
             api_token=api_token,
