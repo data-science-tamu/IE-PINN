@@ -10,9 +10,10 @@ Accurately estimating spatially heterogeneous elasticity parameters, particularl
 
 The original datasets for simulation are from the published data in the work from :
 
-  C.-T. Chen, G. X. Gu, *Learning hidden elasticity with deep neural networks*,  
-  Proceedings of the National Academy of Sciences, 118 (31), Jul. 2021.  
-  doi: [10.1073/pnas.2102721118](https://doi.org/10.1073/pnas.2102721118)
+> **C.-T. Chen, G. X. Gu**  
+> *Learning hidden elasticity with deep neural networks*  
+> *Proceedings of the National Academy of Sciences*, 118 (31), Jul. 2021.  
+> doi: [10.1073/pnas.2102721118](https://doi.org/10.1073/pnas.2102721118)
 
 For this repository, noise is added before training with IE-PINN using the provided code.  
 Additional datasets with different boundary loading conditions are also included in the `dataset` folder.
