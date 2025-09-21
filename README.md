@@ -1,5 +1,4 @@
 # Robust Physics-Informed Neural Network Approach for Estimating Heterogeneous Elastic Properties from Noisy Displacement Data
-IEPINNFramework.png
 
 ![Screenshot](./Images/IEPINNFramework.png)
 
