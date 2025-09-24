@@ -12,6 +12,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/data-science-tamu/IE-PINN.git
 cd IE-PINN
+```
 
 Create and activate a Python environment (recommended):
 python -m venv venv
