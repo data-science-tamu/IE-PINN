@@ -15,13 +15,28 @@ cd IE-PINN
 ```
 
 Create and activate a Python environment (recommended):
+```bash
 python -m venv venv
 source venv/bin/activate      # on Linux/Mac
 venv\Scripts\activate         # on Windows
+```
 
 Install the required packages:
-
+```bash
 pip install -r requirements.txt
+```
+Run the code with the default configuration:
+
+```bash
+python main.py --config config.yaml
+```
+
+If you want to use a custom config file, pass the path:
+
+```bash
+python main.py --config path/to/your_config.yaml
+```
+
 
 ## 📄 Data
 
