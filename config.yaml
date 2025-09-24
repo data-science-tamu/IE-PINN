@@ -1,0 +1,54 @@
+trial:
+  name : 8501 # Random ID for simulation
+  savePath : null  #specify "C:\Users\" or Null at absolute path
+
+device :
+  GPU : True 
+  CUDA_index : 0 
+
+training:
+  pretraining: True
+  epochs: 
+    fit1: 50
+    fit2: 100
+    fit3: 200
+  iterationPerEpoch: 1000
+  learning_rate: 0.001
+  epochsPerModelSaving : 50 
+  
+model:
+  fitting:
+    hidden_layers: 16        
+    neurons_per_layer: 128  # MUST BE EVEN (depth = NUM_NEURON // 2)
+  elasticity:
+    hidden_layers: 16         
+    neurons_per_layer: 128  
+
+data:
+  dataset_path: "./Datasets/"
+  dataset_name: "m_z5_nu_z11"   #File name
+  displacement:
+    nRow: 257
+    nCol: 257
+  elasticity:
+    nRow: 256
+    nCol: 256
+
+loading:
+  condition: "UniformStrain" #  options: UniformStrain, UniformLoad, NormalDistributedLoad, CentralUniformLoad
+  force : null  # If known, specify value, otherwise null
+
+noise:
+  SNR : 1000
+  type : "gaussian"  # options: gaussian, structured 
+
+input:
+  PE_included : True # positional encoding function
+
+PINN :
+  weight:
+    displacement  : 3
+    strain        : 1
+    pde           : 1
+    meanE         : 1
+  constrainedE : 0.25
