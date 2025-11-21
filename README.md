@@ -52,3 +52,5 @@ Additional datasets with different boundary loading conditions are also included
 
 ## 📄 Citation
 
+> T. Srikitrungruang, S. A. D. Fard, M. Lemon, J. Lee, and Y. Zhou, “Robust Physics-Informed Neural Network Approach for Estimating Heterogeneous Elastic Properties from Noisy Displacement Data.” Adv. Sci. (2025): e08445. https://doi.org/10.1002/advs.202508445
+
